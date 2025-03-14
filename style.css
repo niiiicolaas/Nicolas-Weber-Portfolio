@@ -1,0 +1,22 @@
+:root {
+    --accent: #0000ff;
+    --secondary: #0f0;
+    --dark: #181818;
+    --light: #eee;
+
+    --bg: var(--light);
+    --fg: var(--dark);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fg);
+    min-height: 100dvh;
+}
+
+.title-rect {
+    width: 90dvw;
+    padding: 2rem 4ch;
+    background-color: var(--accent);
+    color: var(--light);
+}
