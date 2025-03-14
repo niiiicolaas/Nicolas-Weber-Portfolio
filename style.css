@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Golos Text";
+    src: url("./assets/Golos_Text/GolosText-VariableFont_wght.ttf");
+}
+
 :root {
     --accent: #3950ff;
     --secondary: #0f0;
@@ -6,6 +11,7 @@
 
     --bg: var(--light);
     --fg: var(--dark);
+    font-family: 'Golos Text','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
