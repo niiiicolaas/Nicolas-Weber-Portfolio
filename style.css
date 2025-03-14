@@ -11,17 +11,19 @@
 
     --bg: var(--light);
     --fg: var(--dark);
-    font-family: 'Golos Text','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Golos Text', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
     background-color: var(--bg);
     color: var(--fg);
     min-height: 100dvh;
+    width: 90dvw;
+    display: grid;
 }
 
 .title-rect {
-    width: 90dvw;
+    width: 100%;
     padding: 2rem 4ch;
     background-color: var(--accent);
     color: var(--light);
